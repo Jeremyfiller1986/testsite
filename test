@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Madlabz YouTube</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #00c3ff, #ffff1c, #ff00ff);
+        background-size: 600% 600%;
+        animation: gradient 10s ease infinite;
+        text-align: center;
+      }
+      .pill {
+        background-color: white;
+        border-radius: 50px;
+        display: inline-block;
+        padding: 10px 20px;
+        position: relative;
+        top: -30px;
+      }
+      h1 {
+        margin: 0;
+        position: relative;
+        z-index: 1;
+      }
+      .button-container {
+        margin-top: 20px;
+      }
+      .button-container button {
+        display: block;
+        margin: 0 auto;
+      }
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pill">
+      <h1>madlabz youtube</h1>
+    </div>
+    <div class="button-container">
+      <button onclick="window.location.href='https://www.youtube.com/channel/UCxhFfQGdK-bLQbtYiqsCp0w'">Join</button>
+      <button onclick="window.location.href='https://www.example.com/donate'">Donations</button>
+    </div>
+  </body>
+</html>
